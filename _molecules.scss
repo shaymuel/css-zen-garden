@@ -1,2 +1,23 @@
 @use 'variables' as *;
-@use 'atoms' as a;
+@use 'atoms';
+
+[role="banner"] {
+  > h1 {
+    @include atoms.uppercase($color-light);
+  }
+}
+.summary {
+  @include atoms.uppercase($color-light);
+  padding: 15% 0;
+  p:last-child {
+    @include atoms.divider;
+  }
+  a {
+    color: $color-light;
+  }
+}
+.preamble {
+  background: $color-light;
+  color: $color-dark;
+  padding: 5% 5% 5% 5%;
+}
