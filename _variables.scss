@@ -1,6 +1,10 @@
+//Variables
 $font-headline: "Audiowide", sans-serif;
-$font-body: "Cario", sans-serif;
+$font-body: "Cairo", sans-serif;
 $color-light: #F9fdff;
 $color-dark: #2d2f4e;
 $accent1: #8a95dd;
 $accent2: #Ffca70;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cairo:wght@300;400;700&display=swap');
