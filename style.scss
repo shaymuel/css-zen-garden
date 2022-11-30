@@ -2,3 +2,166 @@
 @use 'atoms' as a;
 @use 'molecules' as m;
 @use 'organisms' as o;
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Cairo:wght@300;400;700&display=swap");
+
+$color-1: #2d2f4e; //Background dark blue;
+$color-2: #8a95dd; //light blue/purple
+$color-3: #ffca70; //yellow
+$color-4: #f9fdff; //super light blue
+$body-copy: "Cairo", sans-serif;
+$heading: "Audiowide", sans-serif;
+
+@mixin glass {
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 0 4px grey, 0 0 2px 1px black, 0 5px 10px black;
+  padding: 20px 20px;
+  margin: 6em 6em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body {
+  font-family: $body-copy;
+  color: white;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://i.pinimg.com/originals/bb/33/98/bb33987c254c892ba6ab782efbd36c2f.gif');
+}
+
+h1{
+  font-family: $heading;
+  color: $color-2;
+  font-size: 4em;
+  margin: 0px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: $heading;
+  color: $color-2;
+}
+
+.intro {
+  @include glass;
+  width: 52%;
+}
+
+.explanation {
+  @include glass;
+display: inline-block;
+margin-bottom: 0;
+}
+
+.participation {
+  @include glass;
+  
+}
+
+.benefits {
+  @include glass;
+}
+
+.requirements {
+  @include glass;
+}
+
+.design-selection {
+  padding: 0.5em;
+
+  ul {
+    display: grid;
+    text-align: left;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    list-style-type: none;
+  }
+  .select {
+    padding: 0;
+    margin: 0 0 0.3em;
+  }
+}
+
+.design-selection li {
+  color: white;
+}
+
+.design-selection ul li :nth-child(2) {
+  color: white;
+}
+
+.design-selection ul li :nth-child(2):hover {
+  color: $color-3;
+}
+
+//links
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $color-3;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto auto auto auto;
+  bottom: 0;
+  background: $color-1;
+  a {
+    padding: 1em;
+    transition: background 0.5s;
+  }
+  a:hover {
+    background: $color-2;
+    text-decoration: none;
+    color: $color-4;
+  }
+}
+
+.summary{
+    display: inline;
+    top: 50px;
+    left: 2px;
+}
+
+.preamble {
+  @include glass;
+ display: inline-block;
+ float: left;
+    margin-left: -20px;
+   margin-bottom: 20px;
+  width: 100%;
+}
+
+.sidebar{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 10px;
+    float: right;
+    width: 30%;
+    @include glass;
+}
+
