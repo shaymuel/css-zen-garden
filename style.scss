@@ -165,3 +165,583 @@ footer {
     @include glass;
 }
 
+@media only screen and (min-width: 320px){
+  h1{
+    font-size: 1.25em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    width: 35%;
+  }
+  .preamble {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: -8px;
+    margin-top: 20px;
+    font-size: 0.75em;
+  }
+  h2, h3, h4 {
+    font-size: 1em;
+  }
+  .summary{
+    font-size: .75em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  .sidebar {
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+    width: 30%;
+    right: 0px;
+  }
+  .explanation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .participation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .benefits {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .requirements {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+   }
+  footer{
+    font-size: .75em;
+  }
+}
+@media only screen and (min-width: 375px) {
+  h1{
+    font-size: 1.25em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .preamble {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: -8px;
+    margin-top: 20px;
+    font-size: 0.75em;
+  }
+  h2, h3, h4 {
+    font-size: 1em;
+  }
+  .summary{
+    font-size: .75em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  .sidebar {
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+    width: 35%;
+    right: 0px;
+  }
+  .explanation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .participation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .benefits {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .requirements {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+   }
+  footer{
+    font-size: .75em;
+  }
+}
+@media only screen and (min-width: 400px) {
+  h1{
+    font-size: 1.25em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .preamble {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: -8px;
+    margin-top: 20px;
+    font-size: 0.75em;
+  }
+  h2, h3, h4 {
+    font-size: 1em;
+  }
+  .summary{
+    font-size: .75em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  .sidebar {
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+    width: 35%;
+    right: 0px;
+  }
+  .explanation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .participation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .benefits {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .requirements {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: .75em;
+   }
+  footer{
+    font-size: .75em;
+  }
+}
+@media only screen and (min-width: 425px){
+  h1{
+    font-size: 1.5em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .preamble {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: -8px;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  h2, h3, h4 {
+    font-size: 1.2em;
+  }
+  .summary{
+    font-size: 1em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  .sidebar {
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+    width: 40%;
+    right: -5px;
+  }
+  .explanation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .participation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .benefits {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .requirements {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+   }
+  footer{
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 500px){
+  h1{
+    font-size: 1.5em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .preamble {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: -10px;
+    margin-top: 30px;
+    font-size: 1em;
+  }
+  h2, h3, h4 {
+    font-size: 1.2em;
+  }
+  .summary{
+    font-size: 1em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  .sidebar {
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+    width: 40%;
+    right: -5px;
+  }
+  .explanation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .participation {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .benefits {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+  }
+  .requirements {
+    padding: 10px 10px;
+    margin: 1em 1em;
+    font-size: 1em;
+   }
+  footer{
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 600px){
+  h1{
+    font-size: 1.75em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    width: 40%;
+  }
+  .preamble {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    margin-left: -15px;
+    font-size: 1.2em;
+  }
+  h2, h3, h4 {
+    font-size: 1.4em;
+  }
+  .summary{
+    font-size: 1.2em;
+  }
+  .explanation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .participation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .benefits {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .requirements {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+   }
+  .sidebar {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+    width: 35%;
+    right: -20px;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    padding-inline-start: 4px;
+  }
+  footer{
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 700px){
+  h1{
+    font-size: 1.75em;
+    margin: 2px;
+  }
+  .intro {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    width: 45%;
+  }
+  .preamble {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    margin-left: -16px;
+    font-size: 1.2em;
+  }
+  h2, h3, h4 {
+    font-size: 1.4em;
+  }
+  .summary{
+    font-size: 1.2em;
+  }
+  .explanation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .participation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .benefits {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .requirements {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+   }
+  .sidebar {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    font-size: 1.2em;
+  }
+  .design-selection ul {
+    grid-template-columns: 1fr;
+    padding-inline-start: 15px;
+  }
+  footer{
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 800px){
+  h1{
+    font-size: 2em;
+  }
+  .intro {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    width: 45%;
+  }
+  .preamble {
+    padding: 15px 15px;
+    margin: 2em 2em;
+    margin-left: -16px;
+  }
+  .explanation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+  }
+  .participation {
+    padding: 15px 15px;
+    margin: 2em 2em;
+  }
+  .benefits {
+    padding: 15px 15px;
+    margin: 2em 2em;
+  }
+  .requirements {
+    padding: 15px 15px;
+    margin: 2em 2em;
+   }
+  .sidebar {
+    padding: 15px 15px;
+    margin: 2em 2em;
+  }
+  .design-selection ul {
+    padding-inline-start: 0px;
+  }
+}
+@media only screen and (min-width: 900px){
+  h1{
+    font-size: 2.5em;
+  }
+  .intro {
+    margin: 3em 3em;
+    width: 45%;
+  }
+  .preamble {
+    margin: 3em 3em;
+    margin-left: -20px;
+  }
+  .explanation {
+    margin: 3em 3em;
+  }
+  .participation {
+     margin: 3em 3em;
+  }
+  .benefits {
+     margin: 3em 3em;
+  }
+  .requirements {
+    margin: 3em 3em;
+   }
+  .sidebar {
+    margin: 3em 3em;
+    right: -15px;
+  }
+  .design-selection ul {
+    padding-inline-start: 0px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  h1{
+    font-size: 3em;
+  }
+  .intro {
+    margin: 3em 3em;
+    width: 50%;
+  }
+  .preamble {
+    margin: 3em 3em;
+    margin-left: -22px;
+  }
+  .explanation {
+    margin: 3em 3em;
+  }
+  .participation {
+     margin: 3em 3em;
+  }
+  .benefits {
+     margin: 3em 3em;
+  }
+  .requirements {
+    margin: 3em 3em;
+   }
+  .sidebar {
+    margin: 3em 3em;
+    right: -40px;
+  }
+  .design-selection ul {
+    padding-inline-start: 0px;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+  }
+}
+@media only screen and (min-width: 1440px){
+  h1{
+    font-size: 3em;
+  }
+  .intro {
+    margin: 4em 4em;
+  }
+  .explanation {
+    margin: 4em 4em;
+  }
+  .participation {
+     margin: 4em 4em;
+  }
+  .benefits {
+     margin: 4em 4em;
+  }
+  .requirements {
+    margin: 4em 4em;
+   }
+  .sidebar {
+    margin: 4em 4em;
+  }
+  .design-selection ul {
+    padding-inline-start: 0px;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+  }
+}
+@media only screen and (min-width: 2560px){
+  h2, h3, h4 {
+    font-size: 2.25em;
+  }
+  .summary {
+    font-size: 1.5em;
+  }
+  .preamble {
+    font-size: 1.5em;
+  }
+  .explanation {
+    font-size: 1.5em;
+    margin-top: 5%;
+  }
+  .participation {
+   font-size: 1.5em;
+  }
+  .benefits {
+   font-size: 1.5em;
+  }
+  .requirements {
+    font-size: 1.5em;
+   }
+  footer{
+    font-size: 1.5em;
+  }
+  .sidebar {
+    font-size: 1.5em;
+  }
+  .design-selection ul {
+    padding-inline-start: 0px;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+  }
+}
