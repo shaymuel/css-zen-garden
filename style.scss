@@ -8,6 +8,13 @@ $color-4: #f9fdff; //super light blue
 $body-copy: "Cairo", sans-serif;
 $heading: "Audiowide", sans-serif;
 
+@keyframes fadeIn {
+  0% { opacity: 0;
+  transform: translateY(5%)
+  }
+  100% {opacity: 1;}
+}
+
 @mixin glass {
   backdrop-filter: blur(4px);
   background-color: rgba(255, 255, 255, 0.1);
@@ -48,26 +55,52 @@ h4 {
 .intro {
   @include glass;
   width: 52%;
+  animation: fadeIn 1s 1s; 
+
 }
 
 .explanation {
   @include glass;
 display: inline-block;
 margin-bottom: 0;
+animation: fadeIn 1s 1s; 
+
 }
 
 .participation {
   @include glass;
-  
+  animation: fadeIn 1s 1s; 
 }
 
 .benefits {
   @include glass;
+  animation: fadeIn 1s 1s;
 }
 
 .requirements {
   @include glass;
+  animation: fadeIn 1s 1s;
 }
+
+.sidebar {
+  animation: fadeIn 1s 1s;
+}
+
+abbr {
+position: relative;
+}
+
+abbr:hover::after {
+position: absolute;
+top: 30px;
+left: -100%;
+display: block;
+padding: 1em;
+background: black;
+content: attr(title);
+z-index: 10;
+}
+
 
 .design-selection {
   padding: 0.5em;
@@ -160,7 +193,7 @@ footer {
     @include glass;
 }
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 1px){
   h1{
     font-size: 1.25em;
     margin: 2px;
